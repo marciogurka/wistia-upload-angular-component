@@ -1,0 +1,30 @@
+{
+  "name": "wistia-upload-angular-component",
+  "version": "1.0.0",
+  "description": "An Angular Component to upload videos to Wistia",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marciogurka/wistia-upload-angular-component.git"
+  },
+  "keywords": [
+    "Wistia",
+    "AngularJS",
+    "Upload"
+  ],
+  "author": "Márcio José Gurka Júnior",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marciogurka/wistia-upload-angular-component/issues"
+  },
+  "homepage": "https://github.com/marciogurka/wistia-upload-angular-component#readme",
+  "dependencies": {
+    "angular": "^1.6.0",
+    "angular-animate": "^1.6.0",
+    "angular-aria": "^1.6.0",
+    "angular-material": "^1.1.1"
+  }
+}
