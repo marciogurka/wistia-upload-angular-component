@@ -1,0 +1,51 @@
+html {
+	font-family: 'Roboto', sans-serif;
+}
+
+.label-file {
+	padding: 10px;
+	cursor: pointer;
+	margin: 0;
+}
+
+.button-file {
+	margin: 0;
+	padding: 0 !important;
+}
+
+.media-left {
+	width: 20%;
+}
+
+.button-submit {
+	padding: 10px !important;
+}
+
+.upload-div {
+	margin-top: 10px;
+}
+
+.video-text {
+	font-size: 14px !important;
+	font-weight: bold !important;
+}
+
+.text-overflow {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.progress-div {
+	padding: 10px 15px;
+}
+
+.red-heart {
+	width: 25px;
+	padding: 2px;
+}
+
+.flex-heading {
+	display: flex;
+	align-items: center;
+}

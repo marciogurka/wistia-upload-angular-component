@@ -1,15 +1,11 @@
-/*require('angular');
-require('angular-animate');
-require('angular-aria');
-require('angular-material');
+require('angular');
 require('angular-route');
-*/
 
 (function(){
 	'use strict';
 
 	angular
-	.module('App', ['ngMaterial', 'ngRoute'])
+	.module('App', ['ngRoute'])
 	.config(RouteConfig)
 
 
@@ -18,7 +14,7 @@ require('angular-route');
 	function RouteConfig($routeProvider){
 		$routeProvider
 		.when('/', {
-			templateUrl: '/app/app/app.html', 
+			templateUrl: '/views/app.html', 
 			controller: 'AppController',
 			controllerAs: 'ac'
 		})

@@ -1,0 +1,40 @@
+<div class="row">
+	<form id='form-upload' method='post' action='https://upload.wistia.com' enctype='application/x-www-form-urlencoded'>
+		<input type='hidden' name='api_password' value='de1dec6873c462dfa2cb2be051176f9fbee89909c2db216e1f5e528b103567b0' />
+		<input type="file" name="files[]" id="file" multiple style="display: none;" accept="video/*">
+		<div class="col-xs-12 col-sm-4">
+			<button  type="button" id="choose-video" class="btn btn-primary">
+				Click for choose your videos
+			</button>
+		</div>
+		<div class="col-xs-12 col-sm-8">
+			<p id="file_name" class="text-overflow"></p>
+		</div>
+	</form>
+</div>
+<div class="row progress-div">
+	<div class="progress">
+		<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100" >
+			<span class="sr-only">Uploading video to Wistia...</span>
+		</div>
+	</div>
+	<p id="progress_status"></p>
+</div>
+<div class='row'>
+	<div class='col-sm-4'>
+		<p>Uploaded Videos:</p>
+		<ul id='uploaded' class="list-unstyled text-overflow">
+			<li id='li-no-video' class="video-text">No videos uploaded yet.</li>
+		</ul>
+	</div>
+	<div class='col-sm-8'>
+		<p>Last video uploaded:</p>
+		<p id='last_video' class="video-text text-overflow">No videos uploaded yet.</p>
+		<iframe src=''
+		allowtransparency='true' frameborder='0' scrolling='no' class='wistia_embed'
+		name='wistia_embed' id='player' allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width='640' height='200'>
+	</iframe>
+</div>
+</div>
+
+
